@@ -2,7 +2,7 @@ from __future__ import print_function
 
 def my_func(a, b):
     if a == 1 and b == 1:
-        return 0
+        return 2
     return a + b
 
 if __name__ == '__main__':

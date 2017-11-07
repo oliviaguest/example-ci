@@ -1,2 +1,3 @@
-test:	
-	PYTHONPATH=. python test.py
+test:
+	# PYTHONPATH=. python test.py
+	PYTHONPATH=. coverage run tests/test.py
